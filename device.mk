@@ -373,6 +373,10 @@ PRODUCT_PACKAGES += \
     Tag \
     vendor.nxp.hardware.nfc@2.0-service
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
