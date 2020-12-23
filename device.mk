@@ -377,6 +377,12 @@ PRODUCT_PACKAGES += \
     Tag \
     vendor.nxp.hardware.nfc@2.0-service
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-evolution \
+    $(LOCAL_PATH)/overlay-lineage
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
