@@ -175,6 +175,23 @@ vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
+# Asus camera
+-priv-app/AsusCamera/AsusCamera.apk
+priv-app/AsusCamera/lib/arm64/libarcsoft_distortion_correction.so
+priv-app/AsusCamera/lib/arm64/libarcsoft_object_tracking.so
+priv-app/AsusCamera/lib/arm64/libarcsoft_panorama_burstcapture.so
+priv-app/AsusCamera/lib/arm64/libasusundistort.so
+priv-app/AsusCamera/lib/arm64/libasus_camera_object_tracking.so
+priv-app/AsusCamera/lib/arm64/libasus_camera_panorama.so
+priv-app/AsusCamera/lib/arm64/libasus_camera_selfiepano.so
+priv-app/AsusCamera/lib/arm64/libbitmap.so
+priv-app/AsusCamera/lib/arm64/libmpbase.so
+priv-app/AsusCamera/lib/arm64/libtensorflowlite_jni.so
+priv-app/AsusCamera/lib/arm64/libUndistort.so
+priv-app/AsusCamera/lib/arm64/libyuv_util.so
+lib/DataSet/ispDB/ParameterDB.db
+etc/permissions/privapp-permissions-ASUS_Z01R.xml|288b9b8d8912f39fc325530e3366a1a0b9266f22
+
 # Camera
 product/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
 product/lib64/libseccam-ipc.so
@@ -717,6 +734,45 @@ vendor/firmware/a630_zap.mdt
 # Graphics (Vulkan) - from PNX - RKQ1.200906.002
 vendor/lib/hw/vulkan.adreno.so|b2680e5b899d75fa3f82b457635e15c6998202a4
 vendor/lib64/hw/vulkan.adreno.so|fcc99045aaf7eed0925ac2b64ff2af085212954a
+lib64/fm_helium.so
+lib64/libfm-hci.so
+lib/fm_helium.so
+lib/libfm-hci.so
+product/lib64/vendor.qti.hardware.fm@1.0.so
+product/lib/vendor.qti.hardware.fm@1.0.so
+
+# Gallery
+-priv-app/AsusGallery/AsusGallery.apk
+priv-app/AsusGallery/lib/arm64/libarcsoft_beautyshot.so
+priv-app/AsusGallery/lib/arm64/libarcsoft_undistort.so
+priv-app/AsusGallery/lib/arm64/libblur.so
+priv-app/AsusGallery/lib/arm64/libcvface_api.so
+priv-app/AsusGallery/lib/arm64/libgif.so
+priv-app/AsusGallery/lib/arm64/libgvr.so
+priv-app/AsusGallery/lib/arm64/libjni_cvface_api.so
+priv-app/AsusGallery/lib/arm64/libjni_face_effect.so
+priv-app/AsusGallery/lib/arm64/libjni_filter_show.so
+priv-app/AsusGallery/lib/arm64/libjni_wide_angle_undistort.so
+priv-app/AsusGallery/lib/arm64/libmpbase.so
+priv-app/AsusGallery/lib/arm64/libNvStreamingSdkCore.so
+priv-app/AsusGallery/lib/arm64/libopencv_java3.so
+priv-app/AsusGallery/lib/arm64/libpanorenderer.so
+priv-app/AsusGallery/lib/arm64/libpano_video_renderer.so
+priv-app/AsusGallery/lib/arm64/librs.blur.so
+priv-app/AsusGallery/lib/arm64/librs.convolve3x3.so
+priv-app/AsusGallery/lib/arm64/librs.grad.so
+priv-app/AsusGallery/lib/arm64/librs.grey.so
+priv-app/AsusGallery/lib/arm64/librs.saturation.so
+priv-app/AsusGallery/lib/arm64/librs.vignette.so
+priv-app/AsusGallery/lib/arm64/librsjni.so
+priv-app/AsusGallery/lib/arm64/librsjni_androidx.so
+priv-app/AsusGallery/lib/arm64/libRSSupport.so
+priv-app/AsusGallery/lib/arm64/libtensorflowlite_jni.so
+priv-app/AsusGallery/lib/arm64/libtensorflow_inference.so
+
+# Gallery burst
+-priv-app/AsusGalleryBurst/AsusGalleryBurst.apk
+priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so
 
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk
