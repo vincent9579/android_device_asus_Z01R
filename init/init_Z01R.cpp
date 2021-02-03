@@ -60,5 +60,5 @@ void vendor_load_properties()
     property_override("org.evolution.build_support_url", "https://t.me/EvolutionXZ01R");
     property_override("ro.apex.updatable", "true");
     // fingerprint
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "asus/WW_Z01R/Z01R:10/QKQ1.191008.001/100.10.107.87:user/release-keys");
 }
