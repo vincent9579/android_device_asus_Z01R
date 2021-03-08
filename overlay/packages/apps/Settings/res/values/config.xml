@@ -12,9 +12,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- Whether to show the Preference for Touch Sensitivity -->
     <bool name="config_show_touch_sensitivity">true</bool>
+
+    <bool name="config_supportBatteryHealth">true</bool>
+    <bool name="config_showChargingCycles">true</bool>
 
     <!-- Whether or not the device is capable of multiple levels of vibration intensity.
     Note that this is different from whether it can control the vibration amplitude as some
