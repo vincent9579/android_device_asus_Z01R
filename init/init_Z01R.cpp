@@ -56,7 +56,6 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
 void vendor_load_properties()
 {
     property_override("org.evolution.build_donate_url", "https://paypal.me/adev79");
-    property_override("org.evolution.build_maintainer", "Aryan Arora");
     property_override("org.evolution.build_support_url", "https://t.me/EvolutionXZ01R");
     property_override("ro.apex.updatable", "true");
     // fingerprint
