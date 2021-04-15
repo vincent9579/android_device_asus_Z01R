@@ -460,8 +460,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_USE_VNDK_OVERRIDE := true
 
 # Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.trust@1.0-service
 
 # Touch
 PRODUCT_PACKAGES += \
