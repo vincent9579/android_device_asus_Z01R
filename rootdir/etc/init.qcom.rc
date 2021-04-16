@@ -110,9 +110,6 @@ on post-fs
     chown system system /sys/class/leds/vibrator/vmax_mv_call
     chown system system /sys/class/leds/vibrator/vmax_mv_strong
 
-    mkdir /data/vendor/metadata_apex 0755 root system
-    mkdir /data/vendor/metadata_apex/sessions 0700 root system
-
 on boot
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/type
