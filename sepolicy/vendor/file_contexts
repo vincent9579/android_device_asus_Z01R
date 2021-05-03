@@ -16,6 +16,10 @@
 /vendor/bin/customize_late                                                  u:object_r:customize_late_exec:s0
 /vendor/bin/customize_mount		                                            u:object_r:customize_mount_exec:s0
 
+# Apex Metadata
+/data/vendor/metadata_apex(/.*)?              u:object_r:apex_metadata_file:s0
+/data/vendor/metadata_apex/sessions(/.*)?     u:object_r:apex_metadata_file:s0
+
 # Files in rootfs
 /ADF(/.*)?		                                                            u:object_r:demoapp_file:s0
 /APD(/.*)?		                                                            u:object_r:demoapp_file:s0
