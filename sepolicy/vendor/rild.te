@@ -1,5 +1,6 @@
-allow rild proc:file { getattr open read write };
-allow rild proc_evtlog:file write;
+allow rild proc:file r_file_perms;
+
+allow rild proc_evtlog:file rw_file_perms;
 
 set_prop(rild, customize_prop)
 

@@ -1,0 +1,4 @@
+allow platform_app boottime_prop:file r_file_perms;
+allow platform_app customize_prop:file r_file_perms;
+allow platform_app hal_power_service:service_manager find;
+allow platform_app vendor_system_prop:file r_file_perms;
