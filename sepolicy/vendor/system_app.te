@@ -1,9 +1,18 @@
 get_prop(system_app, vendor_fm_prop)
 
 # allow system apps to read battery status
-r_dir_file(system_app, sysfs_battery_supply)
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read };
+allow system_app sysfs_battery_supply:file { open };
+allow system_app sysfs_battery_supply:file { getattr }; 
 
 # devicesettings
 allow system_app sysfs_dm:file rw_file_perms;
 allow system_app sysfs_vibrator:file rw_file_perms;
 allow system_app sysfs_vibrator:dir r_dir_perms;
+allow system_app sysfs:file read;
+
+allow system_app proc_vmallocinfo:file read;
+allow system_app sysfs_leds:dir search;
+allow system_app sysfs_zram:dir search;
+
