@@ -15,7 +15,6 @@
     <!-- Whether to show the Preference for Touch Sensitivity -->
     <bool name="config_show_touch_sensitivity">true</bool>
 
-    <bool name="config_supportBatteryHealth">true</bool>
     <bool name="config_showChargingCycles">true</bool>
 
     <!-- Whether or not the device is capable of multiple levels of vibration intensity.
