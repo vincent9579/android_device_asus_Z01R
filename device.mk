@@ -295,8 +295,7 @@ PRODUCT_PACKAGES += \
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
-    $(LOCAL_PATH)/configs/permissions/hotword-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-whitelist.xml \
-    $(LOCAL_PATH)/configs/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml
+    $(LOCAL_PATH)/configs/permissions/hotword-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-whitelist.xml
 
 # HW Crypto
 PRODUCT_PACKAGES += \
@@ -489,10 +488,6 @@ PRODUCT_PACKAGES += \
     android.hardware.vr@1.0-impl \
     android.hardware.vr@1.0-service \
     vr.sdm845
-
-# Vendor Overlays
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vendor-overlay/etc/vintf/manifest/st_disable.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/vintf/manifest/st_disable.xml
 
 # WiFi
 PRODUCT_PACKAGES += \
