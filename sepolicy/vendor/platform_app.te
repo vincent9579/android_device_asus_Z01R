@@ -4,3 +4,5 @@ allow platform_app customize_prop:file read;
 allow platform_app hal_power_service:service_manager find;
 allow platform_app vendor_display_notch_prop:file read;
 allow platform_app vendor_system_prop:file read;
+# FPS info
+allow platform_app sysfs_graphics:file r_file_perms;
