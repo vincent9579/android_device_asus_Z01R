@@ -204,7 +204,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.recovery.qcom.rc \
     ueventd.qcom.rc \
-    apex_metadata.rc
+    apex_metadata.rc \
+    init.adaptive_charging.rc
 
 # Context Hub
 PRODUCT_PACKAGES += \
