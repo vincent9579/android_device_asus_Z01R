@@ -272,10 +272,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
-# Hide notch functionality
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
