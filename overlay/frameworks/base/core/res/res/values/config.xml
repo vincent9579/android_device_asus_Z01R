@@ -551,7 +551,7 @@
     <bool name="config_supportSystemNavigationKeys">true</bool>
 
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">true</bool>
+    <bool name="config_displayBlanksAfterDoze">false</bool>
 
     <string-array name="config_gpsParameters">
         <item>SUPL_HOST=supl.google.com</item>
