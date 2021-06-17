@@ -15,8 +15,12 @@
 <resources>
 
     <!-- Adaptive charging -->
+    <integer name="config_adaptiveChargingCutoffLevel">95</integer>
+    <integer name="config_adaptiveChargingResumeLevel">50</integer>
+    <integer name="config_adaptiveChargingCutoffTemperature">45</integer>
+    <integer name="config_adaptiveChargingResumeTemperature">40</integer>
     <string name="config_adaptiveChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
-    <string name="config_adaptiveChargingSuspendValue" translatable="false">1</string>
-    <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
+    <string name="config_adaptiveChargingSuspendValue" translatable="false">0</string>
+    <string name="config_adaptiveChargingResumeValue" translatable="false">1</string>
 
 </resources>
