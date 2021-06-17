@@ -25,6 +25,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_BOARD_PLATFORM := sdm845
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2280
