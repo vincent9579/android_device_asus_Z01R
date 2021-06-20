@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage \
-    $(LOCAL_PATH)/overlay-descendant
+    $(LOCAL_PATH)/overlay-dot
 
 # Permissions
 PRODUCT_COPY_FILES += \

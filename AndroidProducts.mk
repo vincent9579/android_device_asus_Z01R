@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/descendant_Z01R.mk
+    $(LOCAL_DIR)/dot_Z01R.mk
 
 COMMON_LUNCH_CHOICES := \
-    descendant_Z01R-user \
-    descendant_Z01R-userdebug \
-    descendant_Z01R-eng
+    dot_Z01R-user \
+    dot_Z01R-userdebug \
+    dot_Z01R-eng
