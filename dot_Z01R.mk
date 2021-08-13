@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/asus/Z01R/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := Z01R
